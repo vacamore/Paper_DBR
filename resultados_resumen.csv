@@ -1,0 +1,7 @@
+Escenario,TT,Buffer (h),TF/Orden,Lead Time (h),SD Lead Time,OTD (%),WIP Prom.,Util. CB (%),Tiempo ocioso CB (%),Espera Buffer(h)
+E1 - TT=1000 Buffer=4h (Base),1000,4.0,3,62.33,28.45,17.5,23.5,76.2,23.8,1.14
+E2 - TT=500 Buffer=4h (Buffer fijo),500,4.0,6,22.67,9.33,52.5,18.2,81.1,18.9,1.92
+E3 - TT=500 Buffer=2h (Proporcional),500,2.0,6,47.98,29.15,26.7,36.4,75.9,24.1,0.57
+E4 - TT=250 Buffer=2h (Buffer medio),250,2.0,12,17.35,6.18,62.7,27.9,79.6,20.4,0.98
+E5 - TT=250 Buffer=1h (Proporcional),250,1.0,12,54.39,32.45,26.9,82.8,75.1,24.9,0.28
+E6 - TT=1000 Buffer=2h (Buffer bajo),1000,2.0,3,243.57,55.28,3.1,68.7,56.8,43.2,0.0
