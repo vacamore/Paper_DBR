@@ -216,7 +216,7 @@ if __name__ == '__main__':
             'OTD (%)'        : round(df_r['OTD'].mean(), 1),
             'WIP Prom.'      : round(df_r['avg_wip'].mean(), 1),
             'Util. CB (%)'   : round(df_r['cb_util'].mean(), 1),
-            'Hambre CB (%)'  : round(df_r['cb_starv'].mean(), 1),
+            'Tiempo ocioso CB (%)'  : round(df_r['cb_starv'].mean(), 1),
             'Espera Buffer(h)': round(df_r['buf_wait'].mean(), 2),
         }
         summary_rows.append(row)
@@ -225,7 +225,7 @@ if __name__ == '__main__':
         print(f"  OTD       : {row['OTD (%)']}%")
         print(f"  WIP       : {row['WIP Prom.']}")
         print(f"  Util. CB  : {row['Util. CB (%)']}%")
-        print(f"  Hambre CB : {row['Hambre CB (%)']  }%")
+        print(f"  Tiempo ocioso CB : {row['Tiempo ocioso CB (%)']  }%")
 
     df_summary = pd.DataFrame(summary_rows)
     df_raw     = pd.DataFrame(raw_rows)
